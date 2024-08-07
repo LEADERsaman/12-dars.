@@ -1,0 +1,85 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+
+.row1 {
+    border-radius: 20px 20px 20px 20px;
+    grid-area: row1;
+   background-image: url(../images/img1.jpg);
+   background-repeat: no-repeat;
+   background-size: cover
+}
+.row2 {
+    border-radius: 20px 20px 20px 20px;
+    grid-area: row2;
+    background-image: url(../images/img2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.row3 {
+    border-radius: 20px 20px 20px 20px;
+    grid-area: row3;
+    background-image: url(../images/img4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover
+}
+.row4 {
+    border-radius: 20px 20px 20px 20px;
+    grid-area: row4;
+     background-image: url(../images/img3.jpg);
+     background-repeat: no-repeat;
+     background-size: cover
+}
+.row5{
+    border-radius: 20px 20px 20px 20px;
+    grid-area: row5;
+    background-image: url(../images/img5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover
+}
+.row6 {
+    border-radius: 20px 20px 20px 20px;
+    grid-area: row6;
+    background-image: url(../images/img6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover
+}
+.row7 {
+    border-radius: 20px 20px 20px 20px;
+    grid-area: row7;
+    background-image: url(../images/img7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover
+}
+.row8 {
+    border-radius: 20px 20px 20px 20px;
+    grid-area: row8;
+    background-image: url(../images/img8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+
+
+.box{
+    display: grid;
+    width: 1500px;
+    height: 900px;
+    margin: 0 auto;
+    margin-top: 100px;
+    grid-gap: 20px;
+    grid-template-areas:"row1 row1 row2 row2 row3 row3 row3 row3" 
+                        "row1 row1 row2 row2 row3 row3 row3 row3"
+                        "row1 row1 row4 row4 row5 row5 row6 row6"
+                        "row1 row1 row4 row4 row5 row5 row6 row6"
+                        "row7 row7 row4 row4 row8 row8 row8 row8"
+                        "row7 row7 row4 row4 row8 row8 row8 row8";
+                  
+    }
+            
